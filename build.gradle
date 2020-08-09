@@ -40,6 +40,9 @@ dependencies {
 
 release {
     newVersionCommitMessage = '[Gradle Release Plugin] - [skip ci] new version commit: '
+    failOnCommitNeeded = false
+    failOnPublishNeeded = false
+    revertOnFail = false
 }
 
 eclipse {
